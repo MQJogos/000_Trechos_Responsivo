@@ -22,8 +22,9 @@ body
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
 }
+
 /*=============================*/
-/* TESTAR ESTE TRECHO NO QUIZ*/
+/* TESTAR TALVEZ ESTE TRECHO NO QUIZ*/
 .container .card
 {
   position: relative;
@@ -32,3 +33,12 @@ body
   background: #fff;
 }
 /*===============================*/
+
+.container .card:nth-child(even)
+{
+  flex-direction: column-reverse;
+}
+.container .card .imgBx
+{
+  position: relative;
+}
