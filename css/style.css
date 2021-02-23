@@ -99,9 +99,17 @@ body
     flex-direction: column;
     margin:10px 0;
    }
+  .container .card:nth-child(even)
+  {
+     flex-direction: column;
+   }
   .container .card .imgBx,
   .container .card .content 
   {
-    width: 50%;
+    width: 100%;
+  }
+  .container .card .content
+  {
+    height: 200px;
   }
 }
