@@ -1,1 +1,0 @@
-# ResponsiveBoxModel
